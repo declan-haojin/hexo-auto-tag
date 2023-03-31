@@ -22,6 +22,6 @@
   "dependencies": {
     "hexo-front-matter": "^4.0.0",
     "hexo-fs": "^4.1.1",
-    "openai": "^3.2.1"
+    "xmlhttprequest": "^1.8.0"
   }
 }
