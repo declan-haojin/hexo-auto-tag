@@ -1,6 +1,6 @@
 {
   "name": "hexo-auto-tag",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Hexo-auto-tag generates post tags automatically for your Hexo site using ChatGPT API.",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,12 @@
   "keywords": [
     "hexo",
     "tags",
-    "plugin",
+    "hexo-plugin",
+    "auto-tag",
     "ChatGPT",
     "OpenAI",
-    "auto"
+    "auto",
+    "hexo-filter"
   ],
   "author": "Haojin Li",
   "license": "ISC",
