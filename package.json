@@ -13,10 +13,12 @@
   "keywords": [
     "hexo",
     "tags",
+    "hexo-plugin",
+    "auto",
     "plugin",
     "ChatGPT",
-    "OpenAI",
-    "auto"
+    "GPT-3",
+    "OpenAI"
   ],
   "author": "Haojin Li",
   "license": "ISC",
