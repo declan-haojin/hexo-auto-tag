@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/declan-haojin/hexo-auto-tag#readme",
   "dependencies": {
+    "compute-cosine-distance": "^1.0.0",
     "hexo-front-matter": "^4.0.0",
     "hexo-fs": "^4.1.1",
     "xmlhttprequest": "^1.8.0"
