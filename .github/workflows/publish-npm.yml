@@ -1,19 +1,17 @@
-name: Publish to NPM
+name: Publish Package to npmjs
 on:
   release:
-    types: [created]
+    types: [published]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: Publish package on NPM 📦
-        run: npm publish
+      - run: npm i
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
