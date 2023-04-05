@@ -1,6 +1,6 @@
 {
   "name": "hexo-auto-tag",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "With preset tags, it automatically assigns relevant tags to your posts based on the content of the post.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/declan-haojin/hexo-auto-tag#readme",
   "dependencies": {
     "compute-cosine-distance": "^1.0.0",
+    "file-system-cache": "^2.0.2",
     "hexo-front-matter": "^4.0.0",
     "hexo-fs": "^4.1.1",
     "openai": "^3.2.1"
