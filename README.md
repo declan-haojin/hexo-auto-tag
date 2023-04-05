@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/hexo-auto-tag.svg)](https://badge.fury.io/js/hexo-auto-tag)
 
-The hexo-auto-tag plugin uses the Embeddings API from OpenAI to automatically assign appropriate tags to your posts based on predefined tags.
+Automatically assigns relevant predefined tags to your posts based on their content with the power of GPT-3.
 
 ## Installation
 
