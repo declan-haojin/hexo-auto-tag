@@ -15,10 +15,11 @@
     "tags",
     "hexo-plugin",
     "auto-tag",
-    "ChatGPT",
+    "GPT-3",
     "OpenAI",
     "auto",
-    "hexo-filter"
+    "hexo-filter",
+    "embeddings"
   ],
   "author": "Haojin Li",
   "license": "ISC",
