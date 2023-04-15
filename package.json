@@ -1,7 +1,7 @@
 {
   "name": "hexo-auto-tag",
-  "version": "2.0.0",
-  "description": "With preset tags, it automatically assigns relevant tags to your posts based on the content of the post.",
+  "version": "2.0.1",
+  "description": "Automatically tag your Hexo posts with GPT-3｜使用GPT-3自动为Hexo文章添加标签",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
