@@ -4,6 +4,8 @@
 
 Automatically assigns relevant predefined tags to your posts based on their content with the power of GPT-3.
 
+使用 GPT-3 的强大功能，根据文章内容自动为您的文章分配相关的预定义标签。 [中文文档](/README-CN.md)
+
 ## Installation
 
 ```
@@ -18,7 +20,7 @@ npm install hexo-auto-tag
 auto_tag:
   enable: true
   apiKey: <YOUR OPENAI API KEY>
-  threshold: 0.25
+  threshold: 0.23 # range: 0-1, 0.23 has been tested to be a good value. Lower values tend to result in fewer tags being assigned to a post.
   tags:
     - tag1
     - tag2
